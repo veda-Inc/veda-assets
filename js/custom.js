@@ -208,15 +208,3 @@
 
 
 })( jQuery );
-
-
-
-// Temporary start
-
-
-
-`
-
-  
-
-  
