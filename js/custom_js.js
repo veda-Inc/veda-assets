@@ -110,7 +110,7 @@
 	/* ----------------------------------------------------------- */
 	/*  4. APPS SCREENSHOT SLIDEER ( SLICK SLIDER )
 	/* ----------------------------------------------------------- */
-
+  $(document).ready(function() {
 		$('.mu-apps-screenshot-slider').slick({
 		  slidesToShow: 4,
 		  responsive: [
@@ -137,6 +137,7 @@
 		    }
 		  ]
 		});
+  });
 
 
 
