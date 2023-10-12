@@ -1,0 +1,249 @@
+
+    .nav {
+      padding-left: 0;
+    }
+
+    .nav li {
+      display: inline;
+      list-style-type: none;
+      padding-right: 20px;
+    }
+
+    .content {
+      float: left;
+      width: 80%;
+    }
+
+    .sidebar {
+      float: left;
+      width: 30% !important;
+    }
+
+
+    /* Custom CSS */
+    .custom-input {
+      width: 75%;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 700px) {
+      .custom-input {
+        /* Add your styles for screens less than 700px here */
+        /* For example, you can reduce the width to make it more responsive */
+        width: 100%;
+      }
+    }
+
+    /* End Custom CSS */
+
+    [contenteditable="true"]::before {
+      border: 1px solid transparent;
+      /* A thin grey border */
+      border-radius: 5px;
+      /* Add some rounded corners */
+    }
+
+    [contenteditable="true"]:hover {
+      border-color: #99d68f;
+      /* Change the border color to blue on hover */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      /* Add a glowing border */
+    }
+
+    .editable-content {
+      border: 2px dashed orange;
+    }
+
+    .image-border {
+      position: absolute;
+      top: 12px;
+      left: 15px;
+      width: 90%;
+      height: 98%;
+      border: 2px dotted orange;
+    }
+
+    .replaceable-image {
+      z-index: 2;
+    }
+
+    .floating-save-button{
+      position: fixed;
+      bottom: 45px;
+      right: 40px;
+      background-color: orange;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .image-edit-button{
+      position: absolute;
+      top: 10px; /* Adjust top position as needed */
+      right: 10px; /* Adjust right position as needed */
+      z-index: 3;
+
+    }
+
+
+
+    
+    /* For Iphone X */
+    @media screen and (max-width: 1200px) {
+      .iphone-x {
+        width: 330px !important;
+        height: 608px !important;
+      }
+
+      .mu-header-featured-content{
+        width:58% !important;
+      }
+    }
+
+    .iphone-x {
+      width: 320px !important;
+      height: 650px !important;
+    }
+
+    .marvel-device.iphone-x .notch{
+      left:85px !important;
+    }
+
+    /* For White Phone */
+    @media screen and (max-width: 991px) {
+      .mu-header-featured-img {
+        width: 100% !important;
+        text-align: center;
+      }
+
+      .mu-header-featured-content{
+        width:100% !important;
+      }
+    }
+
+    [contenteditable] { 
+      outline: 0px solid transparent; 
+    } 
+
+
+
+        #sidebar {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          top: 0;
+          left: 0;
+          background-color: #495579;
+          overflow-x: hidden;
+          transition: 0.3s;
+          padding-top: 60px;
+      }
+
+      #sidebar a {
+          padding: 15px 25px;
+          text-decoration: none;
+          font-size: 20px;
+          color: #fff;
+          display: block;
+          transition: 0.2s;
+      }
+
+      #sidebar a:hover {
+          background-color: #555;
+      }
+
+      #sidebar .close-btn {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          cursor: pointer;
+          color: #fff;
+          font-size: 25px;
+      }
+
+      /* Tabs Styles */
+      .tab-content {
+          padding: 20px;
+      }
+
+      /* Form and List Styles */
+      #form-fields, #help-list {
+          display: none;
+      }
+
+      .form-group {
+          margin-bottom: 15px;
+      }
+      
+      
+    #form-fields, #help-list {
+      display: none;
+      color: #fff; /* Set text color to white */
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+
+    {% comment %} Elements SideBar Css {% endcomment %}
+    .sidebar-form{
+      border:1px solid white;
+      margin:10px;
+      padding:10px;
+      border-radius:5px;
+    }
+
+    .sidebar-border1{
+      border:1px solid white;
+    }
+
+    .sidebar-tabs{
+      border: 1px solid white;
+      border-radius: 50px;
+      text-align: center;
+      margin-left: 10px;
+      background: cadetblue;
+      text-align:center;
+      padding:5px !important;
+    }
+
+    .sidebar-active-accordian, .sidebar-active-accordian:hover{
+      background-color: chocolate !important;
+    }
+
+    
+    .custom-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .custom-list li {
+      position: relative;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 5px 10px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      
+    }
+
+    .custom-list li:hover {
+      background-color: mistyrose; /* Change the background color on hover */
+      border-color: #d1d1d1; /* Add a border color on hover */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover for the 3D effect */
+    }
+
+    /* Style the Font Awesome icon */
+    .custom-list li i {
+      margin-right: 10px;
+    }
+
+
+
+
