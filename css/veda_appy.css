@@ -36,23 +36,6 @@
 
     /* End Custom CSS */
 
-    [contenteditable="true"]::before {
-      border: 1px solid transparent;
-      /* A thin grey border */
-      border-radius: 5px;
-      /* Add some rounded corners */
-    }
-
-    [contenteditable="true"]:hover {
-      border-color: #99d68f;
-      /* Change the border color to blue on hover */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      /* Add a glowing border */
-    }
-
-    .editable-content {
-      border: 2px dashed orange;
-    }
 
     .image-border {
       position: absolute;
